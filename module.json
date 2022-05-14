@@ -1,0 +1,82 @@
+{
+  "name": "coc7-module-school-revolution",
+  "title": "Compendium school revolution pour CoC7",
+  "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
+  "author": "lonelyCaretaker",
+  "authors": [],
+  "url": "https://github.com/Berzok/coc7-module-school-revolution",
+  "flags": {},
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.9.9",
+  "compatibleCoreVersion": "9",
+  "scripts": [
+
+  ],
+  "esmodules": [],
+  "styles": [
+  ],
+  "languages": [],
+  "packs": [
+        {
+            "name": "module-creatures",
+            "label": "Module Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "module-items",
+            "label": "Module Items",
+            "path": "./packs/items.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "module-scenes",
+            "label": "Module Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        },
+        {
+            "name": "module-journal-entries",
+            "label": "Module Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "module-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro",
+            "type": "Macro"
+        },
+        {
+            "name": "module-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        },
+        {
+            "name": "module-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist",
+            "type": "Playlist"
+        }
+    ],
+
+  "system": [
+    "CoC7"
+  ],
+  "dependencies": [
+  ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
+  "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
