@@ -74,8 +74,8 @@
   "dependencies": [
   ],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
-  "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/Berzok/coc7-module-school-revolution/master/module.json",
+  "download": "https://github.com/Berzok/coc7-module-school-revolution/releases/download/release/coc7-module-school-revolution.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false
